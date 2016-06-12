@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Whisker": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Size": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Sex": {
+    "dataSource": "Baza",
+    "public": true
+  },
+  "Category": {
+    "dataSource": "Baza",
+    "public": true
+  },
+  "Class": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Dog": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Breed": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Account": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Competition": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Judge": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Leader": {
+    "dataSource": "Baza",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  }
+}

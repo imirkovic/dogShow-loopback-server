@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "Baza": {
+    "host": "us-cdbr-iron-east-04.cleardb.net",
+    "port": 3306,
+    "url": "mysql://bc0ce241b72567:3b01c9c3@us-cdbr-iron-east-04.cleardb.net:3306/ad_06c8e0dbf593f79?reconnect=true",
+    "database": "ad_06c8e0dbf593f79",
+    "password": "3b01c9c3",
+    "name": "Baza",
+    "connector": "mysql",
+    "user": "bc0ce241b72567"
+  }
+}
